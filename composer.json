@@ -1,0 +1,27 @@
+{
+    "name": "pickmap/Response",
+    "description": "A Responder for all REST FULL api outputs",
+    "keywords": [
+        "laravel",
+        "response",
+        "jsend",
+        "microservice",
+        "PHP"
+    ],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "8.*|9.*|10.*",
+    },
+    "autoload": {
+        "psr-4": {
+            "Pickmap\\Responder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alireza salehi",
+            "email": "aliunity751@gmail.com",
+            "homepage": "https://github.com/salehialireza"
+        }
+    ]
+}
