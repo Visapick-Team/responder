@@ -1,5 +1,5 @@
 {
-    "name": "pickmap/Response",
+    "name": "pickmap/response",
     "description": "A Responder for all REST FULL api outputs",
     "keywords": [
         "laravel",
@@ -10,7 +10,7 @@
     ],
     "license": "MIT",
     "require": {
-        "laravel/framework": "8.*|9.*|10.*",
+        "laravel/framework": "8.*|9.*|10.*"
     },
     "autoload": {
         "psr-4": {
