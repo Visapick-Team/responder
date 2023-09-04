@@ -21,10 +21,12 @@ class Res
 
     public static function response($status,$message,$data,$code)
     {
-        return Response()->json([
+        $result = [
             "status"        => $status,
             "message"       => $message,
             "data"          => $data
-        ],$code);
+        ];
+
+        return Response()->json(array_merge($result,$data),$code);
     }
 }
