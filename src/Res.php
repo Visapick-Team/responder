@@ -27,6 +27,10 @@ class Res
             "data"          => $data
         ];
 
-        return Response()->json(array_merge($result,$data),$code);
+        if (is_array($data))
+        {
+            $result = array_merge($result,$data);
+        }
+        return Response()->json($result,$code);
     }
 }
